@@ -11,7 +11,7 @@
   }
   
   html {
-    font-size: 62.5%;
+    font-size:62.5%;
     scroll-behavior: smooth;
   }
   
@@ -258,14 +258,14 @@
   
   .gallery-shelf {
     width: 80%;
-    height: 3rem;
+    height: 1rem;
     background-color: rgba(38, 126, 199, 0.8);
     margin: auto;
     position: relative;
     box-shadow: 1rem 1rem 5rem #444;
   }
   
-  .gallery-shelf::before{
+  .gallery-shelf::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -276,6 +276,7 @@
     transform-origin: bottom;
   }
   
+  
   .gallery img {
     width: 15%;
     position: absolute;
@@ -283,7 +284,7 @@
     transform: translateX(-50%) rotateX(0.5deg);
     box-shadow: 0.2rem -0.2rem 0.5rem #888;
     border-radius: 0.5rem;
-    transform-origin: bottom;
+    transform-origin: bottom; 
     transition: all 0.3s;
   }
   
