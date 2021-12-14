@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
   }
+
   /* End of Common Styles */
   
   /* Menu */
@@ -97,7 +98,7 @@
   }
   /* End of Navbar */
   
-  /* Common Section Styles */
+ 
   .wrapper {
     width: 100%;
     perspective: 50rem;
@@ -133,4 +134,39 @@
   /* End of Common Section Styles */
 
 
+  /* Section1 */
+.section-1{
+    flex-direction: column;
+    background:url(images/bg-section1.jpg) center no-repeat;
+    background-size: cover;
+    
+}
 
+.section-1 .section-1-heading{
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-shadow: 1rem 1rem 1rem #000,2rem 2rem 2rem #1111,3rem 3rem 3rem #222;
+}
+
+.section-1-img{
+    width: 70%;
+}
+  /* End of Section 1 */
+
+  /* Section 2 */
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card{
+    width: 50rem;
+}
+
+.card-img{
+    width: 100%;
+    
+}
+
+  
+  /* End of Section 2 */
